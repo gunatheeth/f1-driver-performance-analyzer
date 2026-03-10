@@ -57,12 +57,6 @@ python main.py
 
 ---
 
-## Demo
-
-![Telemetry Screenshot](images/demo.png)
-
----
-
 ## Future Improvements
 
 * Add interactive driver comparison
