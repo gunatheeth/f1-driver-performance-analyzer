@@ -54,15 +54,13 @@ cd f1-driver-performance-analyzer
 pip install -r requirements.txt
 python main.py
 ```
+### Lap Time Analysis
 
+![Lap Time Analysis](images/lap-analysis.png)
 ---
+## Analytics Dashboard
 
-## Demo
-
-![Telemetry Screenshot](images/demo.png)
-
----
-
+![Dashboard](images/dashboard.png)
 ## Future Improvements
 
 * Add interactive driver comparison
