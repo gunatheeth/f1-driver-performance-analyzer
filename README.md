@@ -51,3 +51,9 @@ Clone the repository:
 ```bash
 git clone https://github.com/gunatheeth/f1-driver-performance-analyzer.git
 cd f1-driver-performance-analyzer
+
+---
+
+## Demo
+
+![Telemetry Screenshot](images/demo.png)
