@@ -10,37 +10,37 @@ This project replays Formula 1 races using telemetry data and provides insights 
 
 ## Features
 
-- Race Replay Visualization – watch the race unfold with real-time driver positions on the track.
-- Driver Performance Analysis – analyze telemetry like speed, gear, DRS status and lap data.
-- Leaderboard – live driver positions and tyre compounds.
-- Lap & Time Display – track current lap and race time.
-- Driver Status – retired drivers marked as **OUT**.
-- Interactive Controls – pause, rewind, fast-forward and change playback speed.
-- Telemetry Insights – inspect telemetry data for selected drivers.
+* Race Replay Visualization – watch the race unfold with real-time driver positions on the track.
+* Driver Performance Analysis – analyze telemetry like speed, gear, DRS status and lap data.
+* Leaderboard – live driver positions and tyre compounds.
+* Lap & Time Display – track current lap and race time.
+* Driver Status – retired drivers marked as **OUT**.
+* Interactive Controls – pause, rewind, fast-forward and change playback speed.
+* Telemetry Insights – inspect telemetry data for selected drivers.
 
 ---
 
 ## Controls
 
-| Action | Key |
-|------|------|
-Pause / Resume | SPACE  
-Rewind | ←  
-Fast Forward | →  
-Speed Control | ↑ / ↓  
-Restart | R  
-Toggle DRS Zone | D  
-Toggle Progress Bar | B  
-Toggle Driver Names | L  
+| Action              | Key   |
+| ------------------- | ----- |
+| Pause / Resume      | SPACE |
+| Rewind              | ←     |
+| Fast Forward        | →     |
+| Speed Control       | ↑ / ↓ |
+| Restart             | R     |
+| Toggle DRS Zone     | D     |
+| Toggle Progress Bar | B     |
+| Toggle Driver Names | L     |
 
 ---
 
 ## Tech Stack
 
-- Python
-- FastF1
-- Arcade
-- NumPy
+* Python
+* FastF1
+* Arcade
+* NumPy
 
 ---
 
@@ -51,9 +51,27 @@ Clone the repository:
 ```bash
 git clone https://github.com/gunatheeth/f1-driver-performance-analyzer.git
 cd f1-driver-performance-analyzer
+pip install -r requirements.txt
+python main.py
+```
 
 ---
 
 ## Demo
 
 ![Telemetry Screenshot](images/demo.png)
+
+---
+
+## Future Improvements
+
+* Add interactive driver comparison
+* Visualize tyre degradation trends
+* Add lap time analytics dashboard
+* Export telemetry analysis results
+
+---
+
+## Author
+
+Gunatheeth Reddy
